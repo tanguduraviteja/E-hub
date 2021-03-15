@@ -16,7 +16,7 @@ schedule_id, start_date, end_date.
 ![alttext](https://github.com/tanguduraviteja/E-hub/blob/main/Schema%20diagram.png)
 
 <h2> Relational Schema : <h2>
-We have 6 entities namely -Client,Programmer,Software,Project leader,Schedule,Specialization
+<p> We have 6 entities namely - Client,Programmer,Software,Project leader,Schedule,Specialization
 Composite attributes – name,address(client entity)
 Multivalued attributes -phone_numbers,languages_known(programmer entity),phone_numbers(client entity)
 Derived attributes – duration(schedule entity)
@@ -32,4 +32,4 @@ Project_leader(projectleader_id,name)
 Manages(projectleader_id,software_id,schedule_id,programmer_id)
 Works_on(software_id,programmer_id,schedule_id)
 Schedule(schedule_id,start_date,end_date)
-Specialization(programmer_id,language)
+Specialization(programmer_id,language) <p>
