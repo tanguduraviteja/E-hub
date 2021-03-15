@@ -7,5 +7,8 @@ may develop more than one software for one client. Each client is identified by 
 software developed for the client such as date_of_commencement, date_of_release, status_of_software, etc. are also maintained. Each
 software may be developed by more than one programmer with one project leader. The software's working by a programmer will have
 schedule_id, start_date, end_date.
-Er Diagram: 
+
+
+
+<h1>Er Diagram:<h1> 
 ![alt text](https://github.com/tanguduraviteja/E-hub/blob/main/Erdiagram.png)
