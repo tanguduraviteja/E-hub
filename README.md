@@ -8,3 +8,4 @@ software developed for the client such as date_of_commencement, date_of_release,
 software may be developed by more than one programmer with one project leader. The software's working by a programmer will have
 schedule_id, start_date, end_date.
 Er Diagram: 
+![alt text](https://raw.githubusercontent.com/tanguduraviteja/E-hub/erdiagram.png)
