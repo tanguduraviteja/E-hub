@@ -15,7 +15,7 @@ schedule_id, start_date, end_date.
  
 ![alttext](https://github.com/tanguduraviteja/E-hub/blob/main/Schema%20diagram.png)
 
-Relational Schema :
+<h2> Relational Schema : <h2>
 We have 6 entities namely -Client,Programmer,Software,Project leader,Schedule,Specialization
 Composite attributes – name,address(client entity)
 Multivalued attributes -phone_numbers,languages_known(programmer entity),phone_numbers(client entity)
