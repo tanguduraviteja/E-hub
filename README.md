@@ -14,3 +14,22 @@ schedule_id, start_date, end_date.
 <h1> schema diagram: <h1>
  
 ![alttext](https://github.com/tanguduraviteja/E-hub/blob/main/Schema%20diagram.png)
+
+Relational Schema :
+We have 6 entities namely -Client,Programmer,Software,Project leader,Schedule,Specialization
+Composite attributes – name,address(client entity)
+Multivalued attributes -phone_numbers,languages_known(programmer entity),phone_numbers(client entity)
+Derived attributes – duration(schedule entity)
+The strong entity set reduces to schema with the same attributes. The composite attributes get simplified by
+creating separate attributes.
+Programmer(programmer_id,name,phone_numbers,qualification,date_of_joining)
+Languages_known(programmer_id,language)
+Programmer_phoneno(programmer_id,phone_no)
+Client(client_id,fname,lname,street,city,state)
+Client_phonenumbers(client_id,phonenumber)
+Software(software_id,date_of_starting,date_of_release,status_of_software,client_id)
+Project_leader(projectleader_id,name)
+Manages(projectleader_id,software_id,schedule_id,programmer_id)
+Works_on(software_id,programmer_id,schedule_id)
+Schedule(schedule_id,start_date,end_date)
+Specialization(programmer_id,language)
