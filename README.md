@@ -10,3 +10,7 @@ schedule_id, start_date, end_date.
 <h1>Er Diagram:<h1> 
   
 ![alttext](https://github.com/tanguduraviteja/E-hub/blob/main/Erdiagram.png)
+ 
+<h1> schema diagram: <h1>
+ 
+ 
