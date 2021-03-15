@@ -9,4 +9,4 @@ software may be developed by more than one programmer with one project leader. T
 schedule_id, start_date, end_date.
 <h1>Er Diagram:<h1> 
   
-![alt text](https://github.com/tanguduraviteja/E-hub/blob/main/Erdiagram.png)
+(https://github.com/tanguduraviteja/E-hub/blob/main/Erdiagram.png)
